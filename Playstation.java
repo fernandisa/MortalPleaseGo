@@ -42,34 +42,34 @@ public class Playstation {
          j.setChutefraco("Triangulo");
         // exibir na tela
         
-         JOptionPane.showMessageDialog(null,"*******************Playstation***************\n*******************Reptile***************\n"
-                 + "Comandos Basicos:");
-        JOptionPane.showMessageDialog(null,"Soco fraco: " +  rep.getSocofraco() + "\nSoco forte: " + rep.getSocoforte() + 
-                "\nDefesa: " +  rep.getDefesa() + "\nComandos especiasis:\nInvisivel: " + "" + rep.invisivel() + "Acido: " + 
-                rep.acido());
-        JOptionPane.showMessageDialog(null,"*************SubZero***************\nComandos Basicos:");
-        JOptionPane.showMessageDialog(null,"Soco fraco: " +  sub.getSocofraco() + "\nSoco forte: " + sub.getSocoforte() + 
-                 "\nDefesa: " +  rep.getDefesa() + "\nComandos especiasis:\nGelo Frente: " + sub.gelofrente() + "\nGelo Ch�o: " + 
-                sub.gelochao() + "\nSlide: " + sub.slide() );
-        JOptionPane.showMessageDialog(null,"*************Scorpion***************\nComandos Basicos:");
-        JOptionPane.showMessageDialog(null,"Soco fraco: " +  sub.getSocofraco() + "\nSoco forte: " + sub.getSocoforte() + 
-                 "\nDefesa: " +  sco.getDefesa() + "\nComandos especiasis:\nSpear:" + sco.spear() + "\nTake Down: " + sco.takedown() +
-                         "\nTeleport: " + sco.teleport() +"\n" );
-        
-        Lutas luta = new Lutas ("Bahamas", rep, sco);
-//        luta.setCenario("Teatro");
-//        luta.setPersonagem1(rep);
-//        luta.setPersonagem2(sco);
-        luta.acertaGolpe("p1");
-        JOptionPane.showMessageDialog(null, "Personagem 1 acerta golde!\nVida de personagem 1:" + luta.personagem1.getVida() + "\nVida de Scorpion:" 
-                + luta.personagem2.getVida() );
-        luta.acertaGolpe("p2");
-        JOptionPane.showMessageDialog(null, "\nPersonagem 2 acerta golpe!\nVida de personagem 2:" + luta.personagem2.getVida() + "\nVida de reptile:" 
-                + luta.personagem1.getVida() );
-        luta.acertaCombo1("p2");
-        JOptionPane.showMessageDialog(null, "Personagem 2 acerta combo 1!\nVida de personagem 2:" + luta.personagem2.getVida() + "\nVida de reptile:" 
-                + luta.personagem1.getVida() );
-        
+//         JOptionPane.showMessageDialog(null,"*******************Playstation***************\n*******************Reptile***************\n"
+//                 + "Comandos Basicos:");
+//        JOptionPane.showMessageDialog(null,"Soco fraco: " +  rep.getSocofraco() + "\nSoco forte: " + rep.getSocoforte() + 
+//                "\nDefesa: " +  rep.getDefesa() + "\nComandos especiasis:\nInvisivel: " + "" + rep.invisivel() + "Acido: " + 
+//                rep.acido());
+//        JOptionPane.showMessageDialog(null,"*************SubZero***************\nComandos Basicos:");
+//        JOptionPane.showMessageDialog(null,"Soco fraco: " +  sub.getSocofraco() + "\nSoco forte: " + sub.getSocoforte() + 
+//                 "\nDefesa: " +  rep.getDefesa() + "\nComandos especiasis:\nGelo Frente: " + sub.gelofrente() + "\nGelo Ch�o: " + 
+//                sub.gelochao() + "\nSlide: " + sub.slide() );
+//        JOptionPane.showMessageDialog(null,"*************Scorpion***************\nComandos Basicos:");
+//        JOptionPane.showMessageDialog(null,"Soco fraco: " +  sub.getSocofraco() + "\nSoco forte: " + sub.getSocoforte() + 
+//                 "\nDefesa: " +  sco.getDefesa() + "\nComandos especiasis:\nSpear:" + sco.spear() + "\nTake Down: " + sco.takedown() +
+//                         "\nTeleport: " + sco.teleport() +"\n" );
+//        
+//        Lutas luta = new Lutas ("Bahamas", rep, sco);
+////        luta.setCenario("Teatro");
+////        luta.setPersonagem1(rep);
+////        luta.setPersonagem2(sco);
+//        luta.acertaGolpe("p1");
+//        JOptionPane.showMessageDialog(null, "Personagem 1 acerta golde!\nVida de personagem 1:" + luta.personagem1.getVida() + "\nVida de Scorpion:" 
+//                + luta.personagem2.getVida() );
+//        luta.acertaGolpe("p2");
+//        JOptionPane.showMessageDialog(null, "\nPersonagem 2 acerta golpe!\nVida de personagem 2:" + luta.personagem2.getVida() + "\nVida de reptile:" 
+//                + luta.personagem1.getVida() );
+//        luta.acertaCombo1("p2");
+//        JOptionPane.showMessageDialog(null, "Personagem 2 acerta combo 1!\nVida de personagem 2:" + luta.personagem2.getVida() + "\nVida de reptile:" 
+//                + luta.personagem1.getVida() );
+//        
         
  
     }

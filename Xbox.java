@@ -41,6 +41,7 @@ public class Xbox {
          kung.setChuteforte("Quadrado");
          kung.setChutefraco("Bolinha");
          
+         
          Raiden r = new Raiden ();
          r.setSocofraco("Baixo");
          r.setSocoforte("Triangulo");
@@ -59,30 +60,33 @@ public class Xbox {
          r.setChuteforte("X");
          r.setChutefraco("Retangulo");
          
+        
          Lutas luta = new Lutas ("Bahamas",  p1, k);
          luta.acertaGolpe("p1");
-         System.out.println("Personagem 1 acerta golpe normal em Personagem 2\nVida do personagem 1" + luta.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta.personagem2.vida);
-        luta.acertaCombo1("k");
-        System.out.println("Personagem 2 acerta combo 1 em Personagem 2\nVida do personagem 1" + luta.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta.personagem2.vida);
-        luta.acertaCombo2("k");
-        System.out.println("Personagem 2 acerta combo 2 em Personagem 2\nVida do personagem 1" + luta.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta.personagem2.vida);
-        
-        Lutas luta2 = new Lutas ("Teatro", kung, r);
-        luta2.acertaGolpe("r");
-        System.out.println("Personagem 2 acerta golpe: normal em Personagem 1\nVida do personagem 1" + luta2.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta2.personagem2.vida + "\n");
-        luta2.acertaGolpe("r", 13);
-        System.out.println("Personagem 2 acerta golpe com dano em Personagem 1\nVida do personagem 1" + luta2.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta2.personagem2.vida + "\n");
-        luta2.acertaCombo2("r");
-        System.out.println("Personagem 2 acerta combo 2 em Personagem 1\nVida do personagem 1" + luta2.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta2.personagem2.vida + "\n");
-        luta2.acertaCombo1("p1");
-        System.out.println("Personagem 1 acerta golpe: normal em Personagem 2\nVida do personagem 1" + luta2.personagem1.vida + "\nVida do personagem"
-                 + " 2:" + luta2.personagem2.vida + "\n");
+         System.out.println("LUTA 1:\n");
+         System.out.println("Personagem 1 acerta golpe normal em Personagem 2\nVida do personagem 1: " + luta.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta.personagem2.vida);
+         luta.acertaCombo1("k");
+         System.out.println("Personagem 2 acerta combo 1 em Personagem 2\nVida do personagem 1: " + luta.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta.personagem2.vida);
+         luta.acertaCombo2("k");
+         System.out.println("Personagem 2 acerta combo 2 em Personagem 2\nVida do personagem 1: " + luta.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta.personagem2.vida);
+
+         Lutas luta2 = new Lutas ("Teatro", kung, r);
+         luta2.acertaGolpe("r");
+         System.out.println("LUTA 2:\n");
+         System.out.println("Personagem 2 acerta golpe normal em Personagem 1\nVida do personagem 1: " + luta2.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta2.personagem2.vida + "\n");
+         luta2.acertaGolpe("r", 13);
+         System.out.println("Personagem 2 acerta golpe com dano em Personagem 1\nVida do personagem 1: " + luta2.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta2.personagem2.vida + "\n");
+         luta2.acertaCombo2("r");
+         System.out.println("Personagem 2 acerta combo 2 em Personagem 1\nVida do personagem 1: " + luta2.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta2.personagem2.vida + "\n");
+         luta2.acertaCombo1("p1");
+         System.out.println("Personagem 1 acerta golpe  normal em Personagem 2\nVida do personagem 1: " + luta2.personagem1.vida + "\nVida do personagem"
+                 + " 2: " + luta2.personagem2.vida + "\n");
         
 
     }

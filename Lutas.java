@@ -89,12 +89,12 @@ public class Lutas {
     {
         if (lutador.equals("p1"))
         {
-            this.personagem2.setVida(this.personagem2.getVida()-this.novodano);
+            this.personagem2.setVida(this.personagem2.getVida()-novodano);
      
         }
         else
         {
-            this.personagem1.setVida(this.personagem1.getVida()-this.novodano);
+            this.personagem1.setVida(this.personagem1.getVida()-novodano);
         }
     }
     
@@ -126,7 +126,7 @@ public class Lutas {
         else
         {
             this.personagem1.setVida(this.personagem1.getVida()-this.danocombo);
-            JOptionPane.showMessageDialog(null, this.personagem1.combo1());
+            JOptionPane.showMessageDialog(null, this.personagem1.combo2());
         }
     }
 }
